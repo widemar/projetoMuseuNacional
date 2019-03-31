@@ -1,0 +1,180 @@
+body{
+    background: url(../img/fundo.png) repeat-x top left;
+    font: 15px;
+    font-family: monospace;
+}
+#containerPrincipal{
+    width: 1080px;
+    margin: 0 auto;
+    
+    
+    
+}
+/* inicio formatação logo */
+#logo h1{
+    float: left;
+    
+}
+#logo a{
+    width: 248px;
+    height: 21px;
+    display: block;
+    
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -1000px;
+}/* fim formatação logo */
+
+header{
+    padding: 15px 0;
+    height: 55px;
+   
+}
+/* inicio formatação navegaçao topo */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+}
+nav ul{
+    margin: 20px;
+    float: right;
+    
+}
+nav ul li{
+    
+    float: left;
+    
+}
+a:link, a:active, a:visited{
+    color: #af670a;
+}
+a:hover{
+    color: green;
+}
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid greenyellow;
+}/* fim formatação navegação topo */
+/* inicio formatação conteudo primario */
+#conteudoPrimario{
+    float: left;
+    width: 710px;
+    margin-bottom: 20px;
+}
+#capa{
+    height: 320px;
+    background: url(../img/museu.png) no-repeat;
+}
+article ul li{
+    padding: 5px;
+}
+article#videos{
+    float: left;
+    width: 310px;
+    
+}
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 85px;
+}
+article#exposicao{
+    float: left;
+    width: 310px;
+    margin-top: 15px;
+    
+}
+article#historia{
+    margin-top: 15px;
+    float: left;
+    width: 310px;
+    margin-left: 85px;
+    
+}/* fim formatação conteudo primario */
+/* inicio formatação conteudo lateral */
+aside{
+    float: right;
+    width: 350px;
+    padding-bottom: 30px;
+    
+}
+#depoimento{
+    
+    height: 320px;
+    background:url(../img/depoimento.png) no-repeat;
+}
+#visita{
+    margin-top: 20px;
+    height: 130px;
+    background: burlywood;
+    
+}
+section#visita{
+    padding: 20px;
+}
+h3{
+    margin: 0;
+    padding: 3px;
+    color: brown;
+}
+input{
+    height: 20px;
+    border: none;
+    font-size: 1em;
+    width: 80px;
+}
+input.campo{
+    
+}
+input.botao{
+    background: #af670a;
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+}
+fieldset{
+    border: none;
+}
+legend{
+    display: none;
+}
+#galeria{
+    padding: 0 27px 0 27px;
+    
+    background: blanchedalmond;
+}
+#galeria img{
+    width: 93px;
+    height: 93px;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+section#galeria a{
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 18px;
+    margin: 10 0 0 20px;
+    
+}
+h2{
+    color: #af670a;
+}/* fim formatação conteudo lateral */
+/* inicio formatação navegação rodapé */
+footer{
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../img/fundo-rodape.png) repeat;
+}
+footer p a{
+    padding: 2px 10px;
+}
